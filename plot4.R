@@ -56,6 +56,6 @@ with(household,
           type = "l", 
           ylab = "Global_reactive_power", 
           xlab = "Datetime"))
-dev.copy(png, file = "Plot_4.png")
+dev.copy(png, file = "Plot_4.png", width=480, height=480)
 dev.off()
 par(paro)

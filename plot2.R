@@ -19,5 +19,5 @@ with(household,
           type = "l", 
           ylab = "Global Active Power (Killowats)", 
           xlab = ""))
-dev.copy(png, file = "Plot_2.png")
+dev.copy(png, file = "Plot_2.png", width=480, height=480)
 dev.off()
